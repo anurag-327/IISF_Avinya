@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-const About = () => {
+const Gallery = () => {
   return (
     <>
-    <Navbar />
+    <Navbar/>
     </>
   )
 }
 
-export default About
+export default Gallery

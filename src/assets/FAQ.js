@@ -21,7 +21,7 @@ const faqquestions=[
     },
     {
         id:5,
-        question:"How to contavt Us?",
+        question:"How to contact Us?",
         answer:"answer 5"
     },
    

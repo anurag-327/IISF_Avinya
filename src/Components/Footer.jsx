@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="  mt-5  w-full  dark:bg-gray-900 flex flex-col gap-3 p-5 text-gray-300 ">
         <div>
           <ul className="flex gap-3 sm:gap-5 justify-center items-center">
-            <li><a href="#"><InstagramLogo size={34} color="#ffffff" /></a></li>
-            <li><a href="#"><TwitterLogo size={34} color="#ffffff" /></a></li>
-            <li><a href="#"><FacebookLogo size={34} color="#ffffff" /></a></li>
-            <li><a href="#"><LinkedinLogo size={34} color="#ffffff" /></a></li>
-            <li><a href="#"><Envelope size={34} color="#ffffff" /></a></li>
+            <li><a href="https://www.instagram.com/iisf_knit"><InstagramLogo size={34} color="#ffffff" /></a></li>
+            <li><a href="https://twitter.com/iisf_knit"><TwitterLogo size={34} color="#ffffff" /></a></li>
+            <li><a href="https://www.facebook.com/startupcell.knit"><FacebookLogo size={34} color="#ffffff" /></a></li>
+            <li><a href="https://www.linkedin.com/in/iisfknit"><LinkedinLogo size={34} color="#ffffff" /></a></li>
+            <li><a href="mailto:iisfknit@knit.ac.in"><Envelope size={34} color="#ffffff" /></a></li>
           </ul>
         </div>
         <div>

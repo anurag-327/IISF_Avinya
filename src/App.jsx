@@ -8,6 +8,7 @@ import Gallery from './Pages/Gallery'
 import Contact from './Pages/Contact'
 import Register from './Pages/Register'
 import Results from './Pages/Results'
+import Sponsors from './Pages/Sponsors'
 function App() {
   
   const router=createBrowserRouter([{
@@ -32,7 +33,11 @@ function App() {
   },
   {
     path:"/results",
-    element:<Results/>
+    element:<Results />
+  },
+  {
+    path:"/sponsors",
+    element:<Sponsors />
   },
   {
     path:"*",
@@ -41,7 +46,9 @@ function App() {
 ])
   
   return (
+    <>
    <RouterProvider router={router}/>
+    </>
   )
 }
 

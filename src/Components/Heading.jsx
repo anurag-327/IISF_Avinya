@@ -1,17 +1,18 @@
 import React from 'react'
 import "./animate.css"
 import Confetti from 'react-confetti'
+import mainEvent from '../assets/data/MainEvent'
 const Heading = () => {
   return (
     <div className='relative  h-screen sm:h-[90vh]  sm:mt-[-6rem] mt-[-10rem] justify-center items-center flex flex-col'>
     <div className='flex flex-col justify-center items-center    relative '>
         <div className='flex animate-bounce-finite'>
-            <div className='text-[15vw] relative animate1 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>S</div>
-            <div className='text-[15vw] relative animate2 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>R</div>
+            <div className='text-[15vw] relative animate1 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>A</div>
+            <div className='text-[15vw] relative animate2 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>V</div>
             <div className='text-[15vw] relative animate3 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-t from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>I</div>
-            <div className='text-[15vw] relative animate4 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-b from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>J</div>
-            <div className='text-[15vw] relative animate5 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>A</div>
-            <div className='text-[15vw] relative animate6 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-200 to-blue-400  via-pink-400    drop-shadow-md'>N</div>
+            <div className='text-[15vw] relative animate4 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-b from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>N</div>
+            <div className='text-[15vw] relative animate5 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>Y</div>
+            <div className='text-[15vw] relative animate6 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>A</div>
         </div>
         {/* <div className='absolute animate-bounce-finite right-0 bottom-[5%]'>
         <span className='text-3xl bg-gradient-to-r from-pink-200 to-orange-200 bg-clip-text text-transparent'>Unleash your potential</span>
@@ -25,10 +26,10 @@ const Heading = () => {
     /> */}
         <div>
             <h1 className='text-4xl mb-2  font-bold'>
-               Welcome to SRIJAN
+               Welcome to {mainEvent.name}
             </h1>
             <p className='font-semibold  text-white'>
-              A Startup fair Organised by Innovation, Incubation and StartUp Foundation, KNIT Sultanpur from April 21 to April 24
+              A Startup fair Organised by Innovation, Incubation and StartUp Foundation, KNIT Sultanpur from {mainEvent.date} at {mainEvent.venue}
             </p>
 
         </div>

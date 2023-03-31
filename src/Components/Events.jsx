@@ -1,5 +1,5 @@
 import React from 'react'
-import events from '../assets/Events'
+import events from '../assets/data/Events'
 import EventCard from './EventCard'
 import { CaretLeft, CaretRight } from 'phosphor-react'
 const Events = () => {

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "../assets/Images/Logo.png"
+import MainEvent from './MainEvent'
 const About = () => {
   return (
     <div className=' w-[80%] sm:w-[95%] rounded-2xl border-2 border-blue-400 '>
@@ -13,8 +14,8 @@ const About = () => {
              
             </div>
             <div className='w-[80%] sm:w-full  p-5 '>
-                <h1 className=' text-3xl font-poppins text-center font-bold text-blue-300'>Innovation, Incubation and Startup Foundation</h1>
-                <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint officiis debitis id labore assumenda tempora doloribus ad odio inventore, libero maiores laboriosam ullam nemo eaque nisi quibusdam, quo reiciendis ut? Corporis vel nisi nesciunt amet! Id quos atque velit.</p>
+                <h1 className=' text-3xl font-poppins text-center font-bold  text-yellow-300'>Innovation, Incubation and Startup Foundation</h1>
+                <p className='text-justify text-xl mt-2'>The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying as an epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well as through conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fostering awareness among the students regarding the thriving startup world and business strategies.</p>
                 <Link className='text-blue-300 float-right  text-end font-semibold ' to="/about"><p>Show more &rarr;</p></Link>
             </div>
         </div>

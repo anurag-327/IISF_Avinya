@@ -11,11 +11,11 @@ import brand8 from "../assets/Sponsors/brand-08.png"
 function Sponsors()
 {
     return(
-    <div className='  w-[80%] sm:w-full flex flex-col gap-2 sm:gap-0 text-center m-auto'>
+    <div className='  w-[80%] sm:w-[95%] flex flex-col  sm:gap-0 text-center m-auto'>
          <div className='bg-white rounded-t-md text-black p-2'>
             <h2 className='text-4xl text-center font-bold'>Our Sponsors</h2>
         </div>
-        <Marquee className='bg-white rounded-b-md'>
+        <Marquee className='bg-white mt-2 rounded-b-md'>
            <img src={brand1}  className="mx-4 w-20" />
            <img src={brand2}  className="mx-4 w-20" />
            <img src={brand3}  className="mx-4 w-20" />

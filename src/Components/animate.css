@@ -1,0 +1,75 @@
+@keyframes example1 {
+    0%   {left:5rem;}
+    100% {left:0rem;}
+  }
+@keyframes example2 {
+    0%   {top:5rem;}
+    100% {top:0rem;}
+  }
+@keyframes example3 {
+    0%   {right:5rem;}
+    100% {right:0rem;}
+  }
+@keyframes example4 {
+    0%   {bottom:5rem;}
+    100% {bottom:0rem;}
+  }
+@keyframes example5 {
+    0%   {right:5rem;}
+    100% {right:0rem;}
+  }
+@keyframes example6 {
+    0%   {left:5rem;}
+    100% {left:0rem;}
+  }
+@keyframes example7 {
+    0%   {top:5rem;}
+   
+    100% {bottom:10rem;}
+  }
+
+  @keyframes bouncyeffect {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+    
+}
+.animate-bouncey {
+    animation: bouncyeffect 2s linear 2;
+}
+
+  
+  /* The element to apply the animation to */
+  .animate1 {
+    animation-name: example1;
+    animation-duration: 2s;
+  }
+  .animate2 {
+    animation-name: example2;
+    animation-duration: 2s;
+  }
+  .animate3 {
+    animation-name: example3;
+    animation-duration: 2s;
+  }
+  .animate4 {
+    animation-name: example4;
+    animation-duration: 2s;
+  }
+  .animate5 {
+    animation-name: example5;
+    animation-duration: 2s;
+  }
+  .animate6 {
+    animation-name: example6;
+    animation-duration: 2s;
+  }
+  .animate7 {
+    animation-name: example7;
+    animation-duration: 6s;
+  }

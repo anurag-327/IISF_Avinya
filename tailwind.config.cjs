@@ -12,8 +12,14 @@ module.exports = {
       'xl': {'min': '1280px', 'max': '1535px'},
       '2xl': {'min': '1536px'},
     },
-    fontFamily:{'poppins':['Poppins','sans-serif']} ,
-    extend: {},
+    fontFamily:{'poppins':['Poppins','sans-serif'],
+    'heading': ['Changa One', 'cursive']
+  } ,
+    extend: {
+      animation: {
+        'bounce-finite': 'bounce 2s ease-out 2',
+      }
+    },
   },
   plugins: [],
 }

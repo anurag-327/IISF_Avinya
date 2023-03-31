@@ -5,7 +5,7 @@ import mainEvent from '../assets/data/MainEvent'
 const MainEvent = () => {
   return (
     <div className='w-[80%] sm:w-[95%] mx-auto text-center border-2 border-blue-400 rounded-2xl  bg-transparent'>
-       <div className='text-4xl font-bold p-2 bg-white rounded-t-2xl text-black'>ABOUT {mainEvent.name}</div>
+       <div className='text-4xl font-bold p-2 sm:p-0 bg-white rounded-t-2xl text-black'>ABOUT {mainEvent.name}</div>
        <div className='flex sm:flex-col justify-center items-center gap-1'>
             <div className='w-[40%] sm:w-full'>
               <img className='w-full object-contain rounded-b-2xl' src={event} alt="event poster"/>

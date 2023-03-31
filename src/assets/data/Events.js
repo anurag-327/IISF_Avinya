@@ -22,17 +22,19 @@ const events=[
     },
     {
         name:'Tussle',
-        description:"3 day tech event",
+        description:`The Innovation Incubation and Startup Foundation KNIT Sultanpur organized an exhilarating two-day event named TUSSLE. It consisted of a Buzzer round that involved a rapid-fire quiz and a ppt round in which the participants had given a detailed presentation on brands of their respective domains followed by a  REBUTTAL where the teams battled to promote their brands.`,
         src:tussle
     },
     {
         name:'Tradeverse',
-        description:"3 day tech event",
+        description:`It was a 2-day mock trading event. A startup: TradeManza provided a platform for participants to partake in and experience stock trading. The results of the trading event were declared at the end of the event and the winners were awarded exciting prizes.`,
         src:tradeverse
     },
     {
         name:'Hackathon',
-        description:"3 day tech event",
+        description:`This event was organized to brainstorm various startup ideas and business models along with a SWOT analysis.
+        Each idea was pitched to the judges through presentation and judged on the basis of creativity, innovation, and feasibility of resources. 
+        `,
         src:hackathon
     },
     

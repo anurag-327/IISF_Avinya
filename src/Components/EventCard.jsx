@@ -1,9 +1,7 @@
 import React from 'react'
-import event from "../assets/Images/Events/event.png"
-import Logo from "../assets/Images/Logo.png"
 const EventCard = ({item}) => {
   return (
-    <div class="group text-ellipsis inline-block border-[2px] border-blue-300 break-words whitespace-pre-wrap  rounded-md mx-2 sm:mx-1  w-[300px] aspect-square relative">
+    <div className="group text-ellipsis inline-block border-[2px] border-blue-300 break-words whitespace-pre-wrap  rounded-md mx-2 sm:mx-1  w-[300px] aspect-square relative">
         <div className='text-center p-3 flex flex-col break-words'>
             <span className='text-lg font-bold bg-blue-200 p-1 rounded-md text-black'>{item.name}</span>
             {/* <span className='text-sm font-light'>{item.description}</span> */}

@@ -16,7 +16,7 @@ const ResultCard = ({item}) => {
              item.rank === 1 || item.rank === 2 || item.rank === 3 ? (<Crown size={25} color="#ffffff" weight="fill" />) : (<SmileyBlank size={25} color="#000000" weight="fill" />)
           }
           <p className="font-bold">{item.winner}</p>
-          <div onClick={() => setOpen(!isOpen)} className="absolute cursor-pointer right-4 "S>
+          <div  className="absolute cursor-pointer right-4 "S>
             {
             isOpen ? (<CaretUp size={20} color="#ffffff" />) : (<CaretDown size={20} color="#ffffff" />)
             }
@@ -25,9 +25,9 @@ const ResultCard = ({item}) => {
       </div>
       {
          isOpen && (<div className='flex text-black  justify-start sm:flex-col items-start gap-1 '>
-         <div className='mx-5 font-bold'>Members:</div>
+         <div className='mx-5 font-bold text-yellow-300'>Members:</div>
          {
-             (item.members).map((mem,index) => <span key={index} className='sm:mx-5'>{mem}, </span>)
+             (item.members).map((mem,index) => <span key={index} className='sm:mx-5 font-semibold text-white'>{mem}, </span>)
          }
         </div>)
       }

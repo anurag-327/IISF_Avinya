@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div>
             <ul className="flex gap-5 sm:gap-1 text-lg justify-center font-extralight items-center sm:flex-col">
-                <li className="hover:underline"><Link to="/about">About Us</Link></li>
+                <li className="hover:underline"><Link to="/iisf">About Us</Link></li>
                 <li className="hover:underline"><Link to="/events">Events</Link></li>
                 <li className="hover:underline"><Link to="/upcomingevents">Upcoming Events</Link></li>
                 <li className="hover:underline"><Link to="/gallery">Gallery</Link></li>

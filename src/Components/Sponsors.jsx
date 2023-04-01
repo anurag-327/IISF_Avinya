@@ -1,13 +1,13 @@
 import React from 'react' 
 import Marquee from "react-fast-marquee";
-import brand1 from "../assets/Sponsors/brand-01.png"
-import brand2 from "../assets/Sponsors/brand-02.png"
-import brand3 from "../assets/Sponsors/brand-03.png"
-import brand4 from "../assets/Sponsors/brand-04.png"
-import brand5 from "../assets/Sponsors/brand-05.png"
-import brand6 from "../assets/Sponsors/brand-06.png"
-import brand7 from "../assets/Sponsors/brand-07.png"
-import brand8 from "../assets/Sponsors/brand-08.png"
+import brand1 from "../assets/Images/Sponsors/brand-01.png"
+import brand2 from "../assets/Images/Sponsors/brand-02.png"
+import brand3 from "../assets/Images/Sponsors/brand-03.png"
+import brand4 from "../assets/Images/Sponsors/brand-04.png"
+import brand5 from "../assets/Images/Sponsors/brand-05.png"
+import brand6 from "../assets/Images/Sponsors/brand-06.png"
+import brand7 from "../assets/Images/Sponsors/brand-07.png"
+import brand8 from "../assets/Images/Sponsors/brand-08.png"
 function Sponsors()
 {
     return(

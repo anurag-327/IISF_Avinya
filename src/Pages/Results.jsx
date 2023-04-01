@@ -17,21 +17,21 @@ const Results = () => {
       }
       result.sort( compare );
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className=''>
         {
             result.length>0 && <Confetti
             width={window.innerWidth}
             height={window.innerHeight}
-            numberOfPieces={1000}
+            numberOfPieces={200}
             recycle={false}
           /> 
         }
         <Navbar />
-        <div className='w-[80%] md:w-[90%] mt-10 sm:w-[95%] text-center '>
+        <div className='w-[80%] md:w-[90%] mx-auto mt-10 sm:w-[95%] text-center '>
             <h1 className='text-4xl font-bold'>Results</h1>
             <div className='flex flex-col w-full mt-10 gap-2 justify-center items-center'>
                 {
-                    result.length >0?(result.map((item,index) => <ResultCard  key={item.rank} item={item}  />)):<h1 className='text-2xl '>Results will be declared Shortly</h1>
+                    result.length >0?(result.map((item,index) => <ResultCard  key={item.rank} item={item}  />)):<h1 className='text-2xl '>Results Not Declared</h1>
                 }
             </div>
         </div>

@@ -3,41 +3,42 @@ import './App.css'
 import { createBrowserRouter, RouterProvider,Router } from 'react-router-dom'
 import Home from './Pages/Home'
 import Error from "./Components/Error"
-import About from './Pages/About'
+import Iisf from './Pages/Iisf'
 import Gallery from './Pages/Gallery'
 import Contact from './Pages/Contact'
 import Register from './Pages/Register'
 import Results from './Pages/Results'
 import Sponsors from './Pages/Sponsors'
+import ScrollToTop from './hooks/ScollToTop'
 function App() {
   
   const router=createBrowserRouter([{
     path:"/",
-    element:<Home/>
+    element:<ScrollToTop><Home/></ScrollToTop>
   },
   {
-    path:"/about",
-    element:<About/>
+    path:"/iisf",
+    element:<ScrollToTop><Iisf/></ScrollToTop>
   },
   {
     path:"/gallery",
-    element:<Gallery/>
+    element:<ScrollToTop><Gallery/></ScrollToTop>
   },
   {
     path:"/contact",
-    element:<Contact/>
+    element:<ScrollToTop><Contact/></ScrollToTop>
   },
   {
     path:"/register",
-    element:<Register/>
+    element:<ScrollToTop><Register/></ScrollToTop>
   },
   {
     path:"/results",
-    element:<Results />
+    element:<ScrollToTop><Results/></ScrollToTop>
   },
   {
     path:"/sponsors",
-    element:<Sponsors />
+    element:<ScrollToTop><Sponsors/></ScrollToTop>
   },
   {
     path:"*",
@@ -47,7 +48,8 @@ function App() {
   
   return (
     <>
-   <RouterProvider router={router}/>
+    <RouterProvider router={router}></RouterProvider>
+   
     </>
   )
 }

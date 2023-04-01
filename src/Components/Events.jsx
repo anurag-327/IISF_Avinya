@@ -19,9 +19,9 @@ const Events = () => {
             <h2 className='text-4xl text-center font-bold'>Events</h2>
         </div>
         <CaretRight onClick={scrollright} className='cursor-pointer absolute right-0 top-[50%] z-10  bg-gray-900 rounded-full p-1' size={36} color="#ffffff" />
-        <div  className=' mt-3 sm:mt-0 sm:p-2 sm:w-[80%] mx-auto slider scroll-smooth w-full h-full   whitespace-nowrap overflow-x-auto no-scrollbar'>
+        <div  className=' mt-3  sm:p-0 sm:w- mx-auto slider scroll-smooth w-full h-full   whitespace-nowrap overflow-x-auto no-scrollbar'>
            {
-                 events.map(item => <EventCard item={item} />)
+                 events.map((item,index) => <EventCard key={index} item={item} />)
            }
         <CaretLeft onClick={scrollleft} className=' cursor-pointer  absolute left-0 top-[50%] bg-gray-900 rounded-full p-1' size={36} color="#ffffff"  />
         </div>

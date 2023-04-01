@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer"
-import Logo from "../assets/Images/Logo.png"
+import Logo from "../assets/Images/Logo/IISF_LOGO.png"
+import { InstagramLogo, TwitterLogo, FacebookLogo ,LinkedinLogo,Envelope} from "phosphor-react";
 import {facultymembers,coreteammember,finalyear,eventmanagement,publicrelation,webdevelopement,rwa,thirdyearcoordinator,brandmarketing,planningandmanagement,financeandopearation,webtechnicaloperationshead,editorialhead,designingandmediateam,secondyear,researchandcorporatesteam} from "../assets/data/Team"
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
           </div>  
           <div className='w-[80%] text-xl sm:w-[90%]  flex flex-col gap-12 text-justify'>
               
-              <div className='introduction'>
+              <div className='introduction text-lg'>
                   <p className='text-center w-[20rem] border mx-auto rounded-md p-1 text-4xl text-orange-400 font-bold mb-4'>INTRODUCTION</p>
                   <p><q className='font-semibold text-yellow-200'>The Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation.
                   </q><br></br>MIC has envisioned encouraging the creation of ‘The Institution’s Innovation Council (IICs)’ across selected Higher Educational Institutions. Innovation Incubation and Startup Foundation KNIT (earlier known as Innovation Incubation and Startup Cell KNIT Sultanpur) are established under IIC to promote innovation in the Institution through multitudinous modes leading to an innovation promotion ecosystem in the campuses.                  
@@ -26,22 +27,32 @@ const About = () => {
                   </p>
               </div> 
 
-              <div className='vision'>
-                  <p className='text-center w-[20rem] border mx-auto rounded-md text-4xl text-orange-400 font-bold mb-4'>OUR VISION</p>
+              <div className='vision text-lg'>
+                  <p className='text-center w-[20rem] border mx-auto rounded-md text-4xl text-green-400 font-bold mb-4'>OUR VISION</p>
                   <p><q className='font-semibold text-yellow-200'>The primary mandate of IISF,  KNIT Sultanpur is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are informative years.
                   </q><br></br>Being an Incubation Center of UP, we aim to provide the best guidance to the startup enthusiasts of the state of Uttar Pradesh and to help them in getting incentives from UP Startup.
                   </p>
               </div> 
+              <div>
+                <h2 className='text-center text-4xl font-bold text-blue-300 mb-5 w-[20rem] border mx-auto rounded-md'>Media Handles</h2>
+                  <ul className="flex gap-3 sm:gap-5 justify-center items-center">
+                      <li><a title="Instagram" href="https://www.instagram.com/iisf_knit"><InstagramLogo size={54} color="#ffffff" /></a></li>
+                      <li><a title="Twitter" href="https://twitter.com/iisf_knit"><TwitterLogo size={54} color="#ffffff" /></a></li>
+                      <li><a title="Facebook" href="https://www.facebook.com/startupcell.knit"><FacebookLogo size={54} color="#ffffff" /></a></li>
+                      <li><a title="LinkedIn" href="https://www.linkedin.com/in/iisfknit"><LinkedinLogo size={54} color="#ffffff" /></a></li>
+                      <li><a title="Mail" href="mailto:iisfknit@knit.ac.in"><Envelope size={54} color="#ffffff" /></a></li>
+                  </ul>
+              </div>
                
               <div className='team mx-auto my-5'>
                   <p className='text-center w-[20rem] border mx-auto rounded-md text-4xl text-orange-400 font-bold mb-4'>OUR TEAM</p>
-                  <div className='flex flex-wrap justify-center  gap-20'>
+                  <div className='flex flex-wrap text-lg justify-center  gap-20'>
                   <div className='min-w-[300px]'>
                         <ul>
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Faculty Members</h2>
                         {
                       
-                          facultymembers.map(item => <li>{item}</li>)
+                          facultymembers.map((item,index) => <li key={index} > {item}</li>)
                         }  
                         </ul>
                         <span className=' block '>( Faculty Coordinator )</span>
@@ -52,16 +63,16 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Core Team Members</h2>
                         {
                       
-                          coreteammember.map(item => <li>{item}</li>)
+                          coreteammember.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
                     <div className='min-w-[300px]'>
                         <ul>
-                        <h2 className='text-xl my-2 underline font-semibold text-yblue-500'>Final Year</h2>
+                        <h2 className='text-xl my-2 underline font-semibold text-blue-500'>Final Year</h2>
                         {
                       
-                          finalyear.map(item => <li>{item}</li>)
+                          finalyear.map((item,index) => <li key={index}>  {item}</li>)
                         }  
                         </ul>
                     </div>
@@ -71,7 +82,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Event Management</h2>
                         {
                       
-                          eventmanagement.map(item => <li>{item}</li>)
+                          eventmanagement.map((item,index) => <li key={index}>  {item}</li>)
                         }  
                         </ul>
                     </div>
@@ -80,7 +91,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Public Relation</h2>
                         {
                       
-                        publicrelation.map(item => <li>{item}</li>)
+                        publicrelation.map((item,index) => <li key={index}>  {item}</li>)
                         }  
                         </ul>
                     </div>
@@ -89,7 +100,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Web developement</h2>
                         {
                       
-                          webdevelopement.map(item => <li>{item}</li>)
+                          webdevelopement.map((item,index) => <li key={index}>  {item}</li>)
                         }  
                         </ul>
                     </div>
@@ -98,7 +109,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Research Wing</h2>
                         {
                       
-                          rwa.map(item => <li>{item}</li>)
+                          rwa.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -107,7 +118,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Third year Coordinator</h2>
                         {
                       
-                          thirdyearcoordinator.map(item => <li>{item}</li>)
+                          thirdyearcoordinator.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -116,7 +127,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Brand and marketing</h2>
                         {
                       
-                          brandmarketing.map(item => <li>{item}</li>)
+                          brandmarketing.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -125,7 +136,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Planning and Management</h2>
                         {
                       
-                          planningandmanagement.map(item => <li>{item}</li>)
+                          planningandmanagement.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -134,7 +145,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Finance and Operation</h2>
                         {
                       
-                          financeandopearation.map(item => <li>{item}</li>)
+                          financeandopearation.map((item,index) => <li key={index}> {item}</li>)
                         }  
                         </ul>
                     </div>
@@ -143,7 +154,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Web Technical Operations Head</h2>
                         {
                       
-                      webtechnicaloperationshead.map(item => <li>{item}</li>)
+                      webtechnicaloperationshead.map((item,index) => <li key={index}>{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -152,7 +163,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Editorials Head</h2>
                         {
                       
-                          editorialhead.map(item => <li>{item}</li>)
+                          editorialhead.map((item,index) => <li  key={index} >{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -161,7 +172,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Designing and Media Team</h2>
                         {
                       
-                          designingandmediateam.map(item => <li>{item}</li>)
+                          designingandmediateam.map((item,index) => <li  key={index} >{item}</li>)
                         }  
                         </ul>
                     </div>
@@ -170,7 +181,7 @@ const About = () => {
                         <h2 className='text-xl my-2 underline  font-semibold text-violet-400 '>Second YearTeam</h2>
                         {
                       
-                          secondyear.map(item => <li>{item}</li>)
+                          secondyear.map((item,index) => <li  key={index} >{item}</li>)
                         }  
                         </ul>
                     </div>

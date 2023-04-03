@@ -8,7 +8,7 @@ const MainEvent = () => {
        <div className='text-4xl font-bold p-2 sm:p-0 bg-white rounded-t-2xl text-black'>ABOUT {mainEvent.name}</div>
        <div className='flex sm:flex-col justify-center items-center gap-1'>
             <div className='w-[40%] sm:w-full'>
-              <img className='w-full object-contain rounded-b-2xl' src={event} alt="event poster"/>
+              <img className='w-full object-contain rounded-b-2xl' src={mainEvent.banner} alt="event poster"/>
             </div>
             <div className='w-[80%] sm:w-full flex flex-col gap-1 justify-center text-justify p-5  items-center'>
               <h1 className='text-3xl text-blue-500 font-bold'>About <span className='text-yellow-300'>{mainEvent.name}</span></h1>

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { createBrowserRouter, RouterProvider,Router } from 'react-router-dom'
 import Home from './Pages/Home'
@@ -10,6 +9,7 @@ import Register from './Pages/Register'
 import Results from './Pages/Results'
 import Sponsors from './Pages/Sponsors'
 import ScrollToTop from './hooks/ScollToTop'
+import Avinya from './Pages/Avinya'
 function App() {
   
   const router=createBrowserRouter([{
@@ -39,6 +39,10 @@ function App() {
   {
     path:"/sponsors",
     element:<ScrollToTop><Sponsors/></ScrollToTop>
+  },
+  {
+    path:"/avinya",
+    element:<ScrollToTop><Avinya/></ScrollToTop>
   },
   {
     path:"*",

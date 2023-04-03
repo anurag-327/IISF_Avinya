@@ -16,7 +16,7 @@ const Heading = () => {
             <div className='text-[15vw] relative animate6 sm:text-[20vw]  font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-200 to-blue-400  via-pink-400   drop-shadow-md'>A</div>
         </div> */}
         <div className='w-[400px] sm:w-[300px] aspect-square '>
-          <img className=' mix-blend-lighten' src={Logo}/>
+          <img className=' mix-blend-lighten' src={mainEvent.logo}/>
         </div>
 
         <div className='w-[80%] sm:w-[95%] mt-5  bg-clip-padding shadow-md shadow-purple-300 backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200   text-center  rounded-tl-3xl rounded-br-3xl p-3 sm:p-1 min-h-[8rem]'>

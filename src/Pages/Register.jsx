@@ -1,19 +1,19 @@
-import React from 'react'
-import Navbar from "../Components/Navbar"
-import Footer from "../Components/Footer"
+import React from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import mainEvent from "../assets/data/MainEvent";
+import RegistrationForm from "../Components/RegistrationForm";
 const Register = () => {
+ 
   return (
     <div>
-      <Navbar/>
-      <form className='w-[80%] mx-auto'>
-        <div>
-          <label>Enter team name</label>
-          <input type="text" placeholder='Enter Team Name'/>
-        </div>
-      </form>
-      <Footer/>
+      <Navbar />
+      {
+        mainEvent.registrattion ?(<RegistrationForm /> ):(<div className='text-4xl sm:text-2xl text-center font-poppins mx-auto mt-20'> Registration Closed⌚</div>)
+      }
+      
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Register;

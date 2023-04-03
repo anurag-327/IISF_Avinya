@@ -9,7 +9,7 @@ import MainEvent from '../Components/MainEvent'
 import Heading from '../Components/Heading'
 const Home = () => {
   return (
-    <div className='flex justify-center items-center z-50  flex-col gap-10'>
+    <div className='flex justify-center items-center   flex-col gap-10'>
       <Navbar />
       <Heading/>
       <MainEvent />

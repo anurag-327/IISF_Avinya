@@ -41,10 +41,10 @@ const rwa=[
    "Ankit Pathak", 
 ]    
 const thirdyearcoordinator=["Amitesh Singh","Anjali Khatri"]
-const brandmarketing=["Rishsi Srivastava","Deepanshi Sriavstava"]
+const brandmarketing=["Rishi Srivastava","Deepanshi Sriavstava"]
 const planningandmanagement=["Devesh verma","Vishwas Verma",]
-const financeandopearation=["Mayank Keharwani","Ashutosh"]
-const webtechnicaloperationshead=["Manish Srivastava","Shivansh vasu"]
+const financeandopearation=["Mayank Kesharwani","Ashutosh"]
+const webtechnicaloperationshead=["Manish Srivastava","Shivansh Vasu"]
 const editorialhead=["Arti Yadav"]
 const designingandmediateam=["Ayush Dubey","Gaurav Kumar","Abhishek Verma","Ishan Garg"]
 const researchandcorporatesteam=["Avi Srivastav","Nikita Agarwal"]
@@ -64,10 +64,14 @@ const secondyear=[
 "Naitik Patel", 
 "Shailendra Kumar", 
 "Saksham Soni", 
-"Swati Singh ",
-"Shiwani Tiwari", 
+"Swati Singh ", 
 "Abhishek Singh ",
-
+"Garvit",
+"Shivangi",
+"Vijay Veer Singh",
+"Ashwani",
+"Shivanshi",
+"Sarthak Pandey",
 
 ]
 

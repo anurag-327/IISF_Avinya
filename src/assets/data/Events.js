@@ -6,7 +6,7 @@ import tussle from "../Images/Events/tussle.jpeg"
 import hackathon from "../Images/Events/hackathon.jpeg"
 const events=[
     {
-        name:'Aaarambh',
+        name:'Aarambh',
         description:"Opening ceremony of our cell.",
         src:aarambh,
     },

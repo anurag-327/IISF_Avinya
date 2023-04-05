@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='w-[80%] sm:w-full  p-5 '>
                 <h1 className=' text-3xl font-poppins text-center font-bold  text-yellow-300'>Innovation, Incubation and Startup Foundation</h1>
-                <p className='text-justify text-lg mt-2'>The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying as an epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well as through conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fostering awareness among the students regarding the thriving startup world and business strategies.</p>
+                <p className='text-start text-lg mt-2'>The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying as an epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well as through conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fostering awareness among the students regarding the thriving startup world and business strategies.</p>
                 <Link className='text-blue-300 float-right  text-end font-semibold ' to="/iisf"><p>Show more &rarr;</p></Link>
             </div>
         </div>

@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import mainEvent from "../assets/data/MainEvent";
+import Loader from "./Loader"
+import RegistrationSuccess from './RegistrationSuccess';
 const RegistrationForm = () => {
+    const [loading,setLoading]=useState(false);
+    const [success,setSuccess]=useState(false);
+    const [errormsg,seterrorMsg]=useState("")
+    const [teamid,setTeamid]=useState("")
     mainEvent.participatingcolleges.sort();
-    function handleregistration(e) 
+    async function handleregistration(e) 
     {
         e.preventDefault();
+        setLoading(true);
         let data = new FormData(e.target);
         let{ teamname,college, collegename, email,mobile,member1,member1year, member2,member2year, member3,member3year } = Object.fromEntries(data.entries());
         collegename=mainEvent.participatingcolleges[college]
@@ -15,9 +22,40 @@ const RegistrationForm = () => {
           mobileNumber:mobile,
           participants:[{name:member1,year:member1year},{name:member2,year:member2year},{name:member3,year:member3year}]
         }
+        let options={
+          method:"POST",
+          headers:{
+              "content-type":"application/json"
+          },
+          body:JSON.stringify(team)
+      }
+      const response=await fetch(`http://localhost:5000/team/register`,options);
+      const ans= await response.json();
+      if(response.status==200)
+      {
+        e.target.reset()
+        setLoading(false)
+        seterrorMsg(ans.message)
+        setTeamid(ans.teamId)
+        setSuccess(true)
+      }
+      else if(response.status==409)
+      {
+        setLoading(false)
+        seterrorMsg(ans.message)
+        console.log(ans)
+      }
+      else
+      {
+        setLoading(false)
+        seterrorMsg(ans.message)
+      }
+      console.log(ans)
       }
   return (
-    <form
+    <div>
+      {
+      success?(<div className='w-screen h-[80vh] flex justify-center items-center'><RegistrationSuccess teamid={teamid}/></div>):(<form
         onSubmit={handleregistration}
         className="w-[60%] max-w-[800px]  2xl:w-[40%] sm:w-full  mx-auto mt-3 sm:mt-0   rounded-md bg-gray-200 p-3"
       >
@@ -184,7 +222,7 @@ const RegistrationForm = () => {
             Email
           </label>
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             autoComplete="on"
@@ -228,15 +266,25 @@ const RegistrationForm = () => {
             required
           />
         </div> */}
+        <div className='text-center font-semibold text-red-700'>
+          <span>{errormsg}</span>
+        </div>
         <div className="w-[100px] mx-auto">
-          <button
+          {
+            loading?<Loader />:<button
             className="bg-blue-600 w-full  px-3 py-2 rounded-md mx-auto"
             type="submit"
           >
             Submit
           </button>
+          }
+          
         </div>
-      </form>
+      </form>)
+    }
+    </div>
+    
+    
   )
 }
 

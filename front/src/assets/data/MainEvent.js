@@ -10,6 +10,6 @@ const mainEvent={
     venue:"IISF Seminar hall, KNIT, Sultanpur",
     registrattion:true,
     schedule:["hh"],
-    participatingcolleges:["Kamla Nehru Institute Of Technology, Sultanpur","Institute Of Engineering and Technology, Lucknow","Bundelkhand Institute of Engineering and Technology, Jhansi","Madan Mohan Malviya University Of Technology, Gorakhpur"]
+    participatingcolleges:["Kamla Nehru Institute Of Technology, Sultanpur"]
 }
 export default mainEvent

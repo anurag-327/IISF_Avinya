@@ -8,7 +8,7 @@ const Day1 = () => {
       <div class="flex-start flex items-center">
         <div
           class="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary dark:bg-primary-500"></div>
-        <h4 class="-mt-2 text-3xl text-yellow-300 font-semibold">Opening</h4>
+        <h4 class="-mt-2 text-3xl text-cyan-300 font-semibold">Opening</h4>
       </div>
       <div class="mb-6 ml-6 pb-6">
         <a
@@ -30,7 +30,7 @@ ence with the opening of the event,where jury members will be introduced to the 
       <div class="flex-start flex items-center">
         <div
           class="-ml-[9px] -mt-2 mr-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary dark:bg-primary-500"></div>
-        <h4 class="-mt-2 text-3xl text-blue-400 font-semibold">Hacakathon-Round 1</h4>
+        <h4 class="-mt-2 text-3xl text-cyan-300 font-semibold">Hacakathon-Round 1</h4>
       </div>
       <div class="mb-6 ml-6 pb-6">
         <a

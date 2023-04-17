@@ -26,7 +26,7 @@ const RegistrationForm = () => {
             REGISTRATION FORM
           </h2>
           <img
-            className="w-[250px] aspect-square mx-auto  rounded-full"
+            className="w-[250px] aspect-square mx-auto  rounded-full object-cover"
             src={mainEvent.logo}
             alt="event Logo"
           />

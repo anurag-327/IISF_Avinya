@@ -9,7 +9,7 @@ import Register from './Pages/Register'
 import Results from './Pages/Results'
 import Sponsors from './Pages/Sponsors'
 import ScrollToTop from './hooks/ScollToTop'
-import Avinya from './Pages/Avinya'
+import Event from './Pages/Event'
 function App() {
   
   const router=createBrowserRouter([{
@@ -41,8 +41,8 @@ function App() {
     element:<ScrollToTop><Sponsors/></ScrollToTop>
   },
   {
-    path:"/avinya",
-    element:<ScrollToTop><Avinya/></ScrollToTop>
+    path:"/event",
+    element:<ScrollToTop><Event/></ScrollToTop>
   },
   {
     path:"*",

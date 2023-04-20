@@ -1,7 +1,7 @@
 const faqquestions=[
     {
         id:1,  
-        question:"What is Avinya?",
+        question:"What is Amogh'23?",
         answer:"answer1"
     },
     {

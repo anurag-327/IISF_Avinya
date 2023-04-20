@@ -29,10 +29,10 @@ const Navbar = () => {
         About Us
         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
       </Link ></li>
-      <li className=''><Link to="/gallery" className="group  transition duration-300">
+      {/* <li className=''><Link to="/gallery" className="group  transition duration-300">
         Gallery
         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
-      </Link ></li>
+      </Link ></li> */}
       
       <li className=''><Link to="/sponsors" className="group  transition duration-300">
         Sponsors

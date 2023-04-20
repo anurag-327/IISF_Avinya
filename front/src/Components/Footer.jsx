@@ -19,7 +19,7 @@ const Footer = () => {
                 <li className="hover:underline"><Link to="/iisf">About Us</Link></li>
                 <li className="hover:underline"><Link to="/results">Results</Link></li>
                 <li className="hover:underline"><Link to="/sponsors">Sponsors</Link></li>
-                <li className="hover:underline"><Link to="/gallery">Gallery</Link></li>
+               
                 <li className="hover:underline"><Link to="/contact">Contact</Link></li>
             </ul>
         </div>
@@ -32,3 +32,4 @@ const Footer = () => {
 };
 
 export default Footer;
+{/* <li className="hover:underline"><Link to="/gallery">Gallery</Link></li> */}

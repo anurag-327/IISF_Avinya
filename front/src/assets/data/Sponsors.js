@@ -7,26 +7,12 @@ import brand6 from "../Images/Sponsors/brand-06.png"
 import brand7 from "../Images/Sponsors/brand-07.png"
 import brand8 from "../Images/Sponsors/brand-08.png"
 const sponsors=[
-    {
-        src:brand1,
-        name:"Apple"
-    },
-    {
-        src:brand2,
-        name:"Bose"
-    },
-    {
-        src:brand3,
-        name:"Cannon"
-    },
-    {
-        src:brand4,
-        name:"Dell"
-    },
-    {
-        src:brand5,
-        name:"Intel"
-    },
+    
+    
 ]
 
+// {
+//     src:brand1,
+//     name:"Apple"
+// },
 export default sponsors

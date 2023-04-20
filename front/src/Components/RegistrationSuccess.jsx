@@ -1,6 +1,7 @@
 import React from 'react'
 
 const RegistrationSuccess = (props) => {
+  console.log(props.teamid);
   return (
     <div className="bg-gray-100 w-[400px] rounded-md mx-auto ">
       <div className="bg-white p-6 rounded-lg  md:mx-auto">
@@ -12,8 +13,8 @@ const RegistrationSuccess = (props) => {
         <div className="text-center">
             <h3 className="md:text-2xl text-base text-gray-900 font-semibold text-center">Team Registered!</h3>
             <p className="text-gray-600 my-2">Thank you for Registering with us.</p>
-            <span classNameName='text-black font-semibold'>Team ID: {props.teamid}</span>
-            <p classNameName='font-bold mt-4 text-red-600'>We advice you copying TeamID.</p>
+            <span className='text-black font-semibold'>Team ID: {props.teamid}</span>
+            <p className='font-bold mt-4 text-red-600'>We advice you copying TeamID.</p>
             <div className="py-10 text-center">
                 <a href="/" className="px-12 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3">
                     GO BACK 

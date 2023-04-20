@@ -29,9 +29,10 @@ const RegistrationForm = () => {
           },
           body:JSON.stringify(team)
       }
+      
       const response=await fetch(`https://iisfavinya-production.up.railway.app/team/register`,options);
       const ans= await response.json();
-      if(response.status==200)
+      if(ans.status==200)
       {
         e.target.reset()
         setLoading(false)
@@ -39,7 +40,7 @@ const RegistrationForm = () => {
         setTeamid(ans.teamId)
         setSuccess(true)
       }
-      else if(response.status==409)
+      else if(ans.status==409)
       {
         setLoading(false)
         seterrorMsg(ans.message)
@@ -50,12 +51,11 @@ const RegistrationForm = () => {
         setLoading(false)
         seterrorMsg(ans.message)
       }
-      console.log(ans)
       }
   return (
     <div>
       {
-      success?(<div className='w-screen h-[80vh] flex justify-center items-center'><RegistrationSuccess teamid={teamid}/></div>):(<form
+      success?(<div className='w-screen  flex justify-center items-center'><RegistrationSuccess teamid={teamid}/></div>):(<form
         onSubmit={handleregistration}
         className="w-[60%] max-w-[800px]  2xl:w-[40%] sm:w-full  mx-auto mt-3 sm:mt-0   rounded-md bg-gray-200 p-3"
       >

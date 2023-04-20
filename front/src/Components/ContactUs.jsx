@@ -6,28 +6,8 @@ const ContactUs = () => {
     <div className="  mt-5  w-full  dark:bg-gray-900 flex flex-col gap-3 p-5 text-gray-300 ">
         <div>
         <h1 className='text-3xl text-center font-poppins font-bold text-white-400'>Feel free to Contact Us!</h1>
-        {/* <hr className='mt-1'></hr> */}
-        
-        {/* <hr className='mt-1'></hr> */}
-            <div className="flex flex-col justify-between">
-              <div>
-                <p className="pt-2 sm">There is no pain you are receding</p>
-              </div> 
-              <div>
-              <Phone size={35} />
-              <span>The Beatles</span>
-              <Phone size={35} />
-              <span>The Beatles</span>
-              </div>
-              <div>
-              <Compass size={35} />
-              <span>The Beatles</span>
-              </div>
-              <div>
-              <PaperPlaneTilt size={35} />
-              <span>The Beatles</span>
-              </div>
-            </div>
+    
+          
           <ul className="flex gap-3 sm:gap-5 justify-center items-center">
             <li><a href="https://www.instagram.com/iisf_knit"><InstagramLogo size={56} color="#ffffff" /></a></li>
             <li><a href="https://twitter.com/iisf_knit"><TwitterLogo size={56} color="#ffffff" /></a></li>

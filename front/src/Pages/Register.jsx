@@ -11,7 +11,7 @@ const Register = () => {
       {
         mainEvent.registrattion ?(<RegistrationForm /> ):(<div className='text-4xl sm:text-2xl text-center font-poppins mx-auto mt-20'> Registration Closed⌚</div>)
       }
-      
+      <Footer/>
     </div>
   );
 };

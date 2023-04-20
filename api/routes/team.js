@@ -19,6 +19,7 @@ router.post("/register",async (req,res) =>
         })
         if(teamDetail)
         {
+            console.log("hii")
             return res.status(409).json({status:409,message:"Team has been already registered "})
         }
         else

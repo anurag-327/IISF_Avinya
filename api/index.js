@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 const ConnectMongoDb=require("./config/mongoose")
 
-app.use("/",(req,res,next)=>
+app.get("/",(req,res,next)=>
 {
      return (res.json("API RUNNING SUCCESSFULLY"))
 })

@@ -10,6 +10,7 @@ import Results from './Pages/Results'
 import Sponsors from './Pages/Sponsors'
 import ScrollToTop from './hooks/ScollToTop'
 import Event from './Pages/Event'
+import Teams from './Pages/Teams'
 function App() {
   
   const router=createBrowserRouter([{
@@ -19,6 +20,10 @@ function App() {
   {
     path:"/iisf",
     element:<ScrollToTop><Iisf/></ScrollToTop>
+  },
+  {
+    path:"/teams",
+    element:<ScrollToTop><Teams/></ScrollToTop>
   },
   {
     path:"/gallery",

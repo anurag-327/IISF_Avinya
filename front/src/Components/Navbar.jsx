@@ -29,8 +29,8 @@ const Navbar = () => {
         About Us
         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
       </Link ></li>
-      {/* <li className=''><Link to="/gallery" className="group  transition duration-300">
-        Gallery
+      {/* <li className=''><Link to="/teams" className="group  transition duration-300">
+        Teams
         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
       </Link ></li> */}
       

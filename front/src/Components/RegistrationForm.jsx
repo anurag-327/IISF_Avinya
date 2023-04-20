@@ -15,12 +15,21 @@ const RegistrationForm = () => {
         let data = new FormData(e.target);
         let{ teamname,college, collegename, email,mobile,member1,member1year, member2,member2year, member3,member3year } = Object.fromEntries(data.entries());
         collegename=mainEvent.participatingcolleges[college]
+        console.log(member2,member3)
+        let participants=[]; 
+        if(member1)
+        participants.push({"name":member1,"year":member1year})
+        if(member2)
+        participants.push({"name":member2,"year":member2year})
+        if(member3)
+        participants.push({"name":member3,"year":member3year})
+        
         const team={
           teamName:teamname,
           college:collegename,
           email:email,
           mobileNumber:mobile,
-          participants:[{name:member1,year:member1year},{name:member2,year:member2year},{name:member3,year:member3year}]
+          participants:participants
         }
         let options={
           method:"POST",
@@ -32,6 +41,7 @@ const RegistrationForm = () => {
       
       const response=await fetch(`https://iisfavinya-production.up.railway.app/team/register`,options);
       const ans= await response.json();
+      console.log(ans)
       if(ans.status==200)
       {
         e.target.reset()
@@ -133,7 +143,7 @@ const RegistrationForm = () => {
             autoComplete="on"
             className="px-3 py-3 placeholder-gray-500 outline-none resize-none text-black bg-white rounded text-sm shadow focus:shadow-lg w-full "
             placeholder="Member 2"
-            required
+          
           />
           <div className="w-full mt-1">
          
@@ -166,7 +176,7 @@ const RegistrationForm = () => {
             autoComplete="on"
             className="px-3 py-3 placeholder-gray-500 outline-none resize-none text-black bg-white rounded text-sm shadow focus:shadow-lg w-full "
             placeholder="Member 3"
-            required
+            
           />
           <div className="w-full mt-1">
          

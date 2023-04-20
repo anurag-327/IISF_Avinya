@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       
       <div className=" text-gray-200 text-center  font-semibold ">
-              <span> @IISF, KNIT SULTANPUR</span>
+              <span> ©IISF, KNIT SULTANPUR</span>
     </div>
     </footer>
   );

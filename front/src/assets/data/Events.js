@@ -12,7 +12,7 @@ const events=[
     },
     {
         name:'Udgam',
-        description:"One day Seminar",
+        description:"One day Seminar with Mr Aalekh Tripathi, CoFounder of digiaccel",
         src:udgam,
     },
     {

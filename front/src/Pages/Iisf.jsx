@@ -176,6 +176,15 @@ const About = () => {
                         }  
                         </ul>
                     </div>
+                    <div className='min-w-[300px]'>
+                        <ul>
+                        <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Designing and Media Team</h2>
+                        {
+                      
+                          researchandcorporatesteam.map((item,index) => <li  key={index} >{item}</li>)
+                        }  
+                        </ul>
+                    </div>
                     <div className='min-w-[300px] text-justify'>
                         <ul>
                         <h2 className='text-xl my-2 underline  font-semibold text-violet-400 '>Second YearTeam</h2>

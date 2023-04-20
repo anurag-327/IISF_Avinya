@@ -29,7 +29,7 @@ const RegistrationForm = () => {
           },
           body:JSON.stringify(team)
       }
-      const response=await fetch(`http://localhost:5000/team/register`,options);
+      const response=await fetch(`${import.meta.env.VITE_APIURL}/team/register`,options);
       const ans= await response.json();
       if(response.status==200)
       {

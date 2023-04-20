@@ -12,7 +12,7 @@ const faqquestions=[
     {
         id:3,
         question:"How to register for the event?",
-        answer:"answer 3"
+        answer:"You can register for the event by filling out the registration form."
     },
     {
         id:4,

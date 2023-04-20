@@ -31,7 +31,7 @@ const Results = () => {
             <h1 className='text-4xl font-bold'>Results</h1>
             <div className='flex flex-col w-full mt-10 gap-2 justify-center items-center'>
                 {
-                    result.length >0?(result.map((item,index) => <ResultCard  key={item.rank} item={item}  />)):<h1 className='text-2xl '>Results Not Declared</h1>
+                    result.length >0?(result.map((item,index) => <ResultCard  key={item.rank} item={item}  />)):<h1 className='text-2xl '>Results have not been declared yet...</h1>
                 }
             </div>
         </div>

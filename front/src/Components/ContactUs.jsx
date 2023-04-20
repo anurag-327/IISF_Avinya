@@ -1,19 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { InstagramLogo, TwitterLogo, FacebookLogo ,LinkedinLogo,Envelope, Phone, Compass, PaperPlaneTilt } from "phosphor-react";
+import { finalyear } from "../assets/data/Team";
 const ContactUs = () => {
   return (
     <div className="  mt-5  w-full  dark:bg-gray-900 flex flex-col gap-3 p-5 text-gray-300 ">
         <div>
         <h1 className='text-3xl text-center font-poppins font-bold text-white-400'>Feel free to Contact Us!</h1>
     
+        
           
-          <ul className="flex gap-3 sm:gap-5 justify-center items-center">
-            <li><a href="https://www.instagram.com/iisf_knit"><InstagramLogo size={56} color="#ffffff" /></a></li>
-            <li><a href="https://twitter.com/iisf_knit"><TwitterLogo size={56} color="#ffffff" /></a></li>
-            <li><a href="https://www.facebook.com/startupcell.knit"><FacebookLogo size={56} color="#ffffff" /></a></li>
-            <li><a href="https://www.linkedin.com/in/iisfknit"><LinkedinLogo size={56} color="#ffffff" /></a></li>
-            <li><a href="mailto:iisfknit@knit.ac.in"><Envelope size={56} color="#ffffff" /></a></li>
+          <ul className="flex gap-3 mt-10 sm:gap-5 justify-center items-center">
+            <li><a href="https://www.instagram.com/iisf_knit"><InstagramLogo size={46} color="#ffffff" /></a></li>
+            <li><a href="https://twitter.com/iisf_knit"><TwitterLogo size={46} color="#ffffff" /></a></li>
+            <li><a href="https://www.facebook.com/startupcell.knit"><FacebookLogo size={46} color="#ffffff" /></a></li>
+            <li><a href="https://www.linkedin.com/in/iisfknit"><LinkedinLogo size={46} color="#ffffff" /></a></li>
+            <li><a href="mailto:iisfknit@knit.ac.in"><Envelope size={46} color="#ffffff" /></a></li>
           </ul>
         </div>
         <div className="w-[80%] sm:w-full mt-10 mx-auto">
@@ -27,3 +29,46 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+
+// <div className="flex sm:flex-col  w-full">
+//           {
+//             finalyear.map((item) =>(<div class="flex items-center h-screen w-full justify-center">
+
+//             <div className="max-w-xs">
+//                 <div className="bg-white shadow-xl rounded-lg py-3">
+//                     <div className="photo-wrapper p-2">
+//                         <img className="w-32 h-32 rounded-full mx-auto" src="https://www.gravatar.com/avatar/2acfb745ecf9d4dccb3364752d17f65f?s=260&d=mp" alt="John Doe"/>
+//                     </div>
+//                     <div className="p-2">
+//                         <h3 className="text-center text-xl text-gray-900 font-medium leading-8">Joh Doe</h3>
+//                         <div className="text-center text-gray-400 text-xs font-semibold">
+//                             <p>Co-ordinator</p>
+//                         </div>
+                        
+            
+                       
+            
+//                     </div>
+//                 </div>
+//             </div>
+            
+//             </div>))
+//           }
+
+//         </div>
+
+{/* <table className="text-xs my-3">
+                            <tbody><tr>
+                                <td className="px-2 py-2 text-gray-500 font-semibold">Address</td>
+                                <td className="px-2 py-2">Chatakpur-3, Dhangadhi Kailali</td>
+                            </tr>
+                            <tr>
+                                <td className="px-2 py-2 text-gray-500 font-semibold">Phone</td>
+                                <td className="px-2 py-2">+977 9955221114</td>
+                            </tr>
+                            <tr>
+                                <td className="px-2 py-2 text-gray-500 font-semibold">Email</td>
+                                <td className="px-2 py-2">john@exmaple.com</td>
+                            </tr>
+                        </tbody></table> */}

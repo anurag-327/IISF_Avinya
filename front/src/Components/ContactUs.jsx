@@ -17,19 +17,19 @@ const ContactUs = () => {
           <img className="w-[200px] rounded-lg border-2" src={contact3} alt="Amitesh Singh" />
           <img className="w-[200px] rounded-lg border-2" src={contact4} alt="Anjali khatri" />
         </div> */}
-        <div className="flex mt-10 flex-col gap-5 border-2 p-5 shadow-md shadow-cyan-200 w-[400px] sm:w-[95%] mx-auto rounded-md">
-          <div className="flex gap-4 justify-center items-center">
+        <div className="flex mt-10 flex-col gap-5 border-2 p-5 shadow-md shadow-cyan-200 w-[300px] mx-auto rounded-md">
+          <div className="flex gap-4 justify-start items-center">
               <Envelope size={46} color="#ffffff" />
               <a className="text-lg text-blue-400 underline" href="mailto:iisfknit@knit.ac.in">iisfknit@knit.ac.in</a>
           </div>
-          <div className="flex gap-4 justify-center items-center">
+          <div className="flex gap-4 justify-start items-center">
               <Phone size={46} color="#ffffff"  />
               <div className="flex-col flex justify-center items-center">
                   <span  >+91 9170702211</span>
                   <span>+91 8052624088</span>
               </div>
           </div>
-          <div className="flex gap-4 justify-center items-center">
+          <div className="flex gap-4 justify-start items-center">
               <House size={46} color="#ffffff"  />
               <span className="font-semibold">IISF, KNIT Sultanpur<br></br> Sultanpur, Uttar Pradesh 228118</span>
                

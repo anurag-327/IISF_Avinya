@@ -44,11 +44,11 @@ const thirdyearcoordinator=["Amitesh Singh","Anjali Khatri"]
 const brandmarketing=["Rishi Srivastava","Deepanshi Sriavstava"]
 const planningandmanagement=["Devesh verma","Vishwas Verma",]
 const financeandopearation=["Mayank Kesharwani","Ashutosh"]
-const webtechnicaloperationshead=["Manish Srivastava","Shivansh Vasu"]
+const webtechnicaloperationshead=["Manish Srivastava","Shivansh Vasu","Nikita Agarwal"]
 const editorialhead=["Arti Yadav"]
 const designingandmediateam=["Abhishek Verma","Ishan Garg"]
 const socialmediaandnetworkinghead=["Abhishek Verma","Ishan Garg"]
-const researchandcorporatesteam=["Avi Srivastav","Nikita Agarwal"]
+const researchandcorporatesteam=["Avi Srivastav"]
 const secondyear=[
 "Guarpad Shukla", 
 "Garima Joshi", 

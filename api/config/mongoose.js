@@ -5,4 +5,4 @@ mongoose.connect(process.env.MONGO_URL)
 {
     console.log("Database connected successfully")
 })
-.catch(err => console.log("Error connecting Database",err));
+.catch(err => console.log("Error connecting Database",err.message));

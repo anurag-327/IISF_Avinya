@@ -9,7 +9,7 @@ const Teams = () => {
     {
         (async function()
         {
-            const res=await fetch(`https://iisfavinya-production.up.railway.app/team/getteams`)
+            const res=await fetch(`https://amogh-production.up.railway.app/team/getteams`)
             const ans= await res.json()
             setTeams(ans);
         }())

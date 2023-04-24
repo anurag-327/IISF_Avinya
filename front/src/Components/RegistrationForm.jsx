@@ -39,7 +39,7 @@ const RegistrationForm = () => {
           body:JSON.stringify(team)
       }
       
-      const response=await fetch(`https://iisfavinya-production.up.railway.app/team/register`,options);
+      const response=await fetch(`https://amogh-production.up.railway.app/team/register`,options);
       const ans= await response.json();
       console.log(ans)
       if(ans.status==200)
@@ -119,6 +119,9 @@ const RegistrationForm = () => {
             id="member1year"
             name="member1year"
           >
+            <option defaultValue="" value="0">
+              Select year
+            </option>
             <option defaultValue="" value="1">
               First Year
             </option>
@@ -153,6 +156,9 @@ const RegistrationForm = () => {
             name="member2year"
           >
             <option defaultValue="" value="1">
+              Select Year
+            </option>
+            <option defaultValue="" value="0">
               First Year
             </option>
             <option value="2">Second Year</option>
@@ -185,6 +191,9 @@ const RegistrationForm = () => {
             id="member3year"
             name="member3year"
           >
+            <option defaultValue="" value="0">
+              Select Year
+            </option>
             <option defaultValue="" value="1">
               First Year
             </option>

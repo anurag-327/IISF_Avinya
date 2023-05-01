@@ -26,7 +26,7 @@ const Event = () => {
                       </span>
                   </Link>
         <h2 className='text-5xl mt-5 sm:text-3xl font-bold text-yellow-500 underline'>Event Roadmap</h2>
-        <h3 className='text-violet-500 font-bold  text-3xl  my-5'>Day 1</h3>
+        {/* <h3 className='text-violet-500 font-bold  text-3xl  my-5'>Day 1</h3> */}
         {/* <Day1/> */}
         {/* <h3 className='text-violet-500  font-bold text-3xl my-5'>Day 2</h3> */}
         {/* <Day2/> */}

@@ -20,10 +20,19 @@ const About = () => {
               <div className='introduction text-lg'>
                   <p className='text-center w-[20rem] border mx-auto rounded-md p-1 text-4xl text-orange-400 font-bold mb-4'>INTRODUCTION</p>
                   <p><q className='font-semibold text-yellow-200'>The Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation.
-                  </q><br></br>MIC has envisioned encouraging the creation of ‘The Institution’s Innovation Council (IICs)’ across selected Higher Educational Institutions. Innovation Incubation and Startup Foundation KNIT (earlier known as Innovation Incubation and Startup Cell KNIT Sultanpur) are established under IIC to promote innovation in the Institution through multitudinous modes leading to an innovation promotion ecosystem in the campuses.                  
-                  Back in 2016 when India had just 471 recognized startups across the nation, the Government of India recognized the potential of the technocrats in the nation and took the initiative of  "Startup India" which aims to build a strong eco-system for nurturing innovations and Startups in the country that will drive sustainable economic growth and generate large scale employment opportunities.
-                  On January 16, 2016, an action plan was unveiled which consisted of 19 action items spanning areas such as “Simplification and handholding”, “Funding support and incentives” and “Industry-academia partnership and incubation”.
-                  This was the time when the department of information technology and electronics, UP approved the proposal for the establishment of the Innovation Incubation and Startup Cell (now Innovation Incubation and Startup Foundation) in our institute which strived for promoting the startup culture as well as incubating ideas, the foundation received its fundings in 2017. On 12th January 2018 under the guidance of the director of the institute Prof. J.P.Pandey and coordinator Prof. H.V.Singh, Dean of Academics, KNIT sultanpur embarked on its objectives of incubating the budding ideas and providing them with the perfect platform.
+                  </q><br></br>The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying as
+an epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well as
+through conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fostering
+awareness among the students regarding the thriving startup world and business strategies.
+Our startups have been recognized by the Government of India for their excellence in their respective
+domains, generating massive employment opportunities and creating an impact in society. We have been
+acknowledged by various institutions and have been part of the Global Investor and G20 summit organized
+by the Central Government of India. We have also been invited by various state government authorities,
+prestigious departments and many such organizations for the investors and incubator summits.
+In the series of creating the cognizance and transcendence about the startups and businesses, IISF is
+organizing an entrepreneurial conclave of 2 days to give an opportunity to present your ideas, showcase
+your knowledge and experience the heat to learn and grow, at the reputed and distinguished platform of
+IISF.
                   </p>
               </div> 
 

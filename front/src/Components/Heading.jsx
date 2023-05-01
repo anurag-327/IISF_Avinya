@@ -25,7 +25,7 @@ const Heading = () => {
                Welcome to <span className=' text-4xl text-blue-300'>{mainEvent.name}</span>
             </h1>
             <p className='font-semibold  text-white'>
-              An Entrepreneurial conclave Organised by Innovation, Incubation and StartUp Foundation, KNIT Sultanpur from {mainEvent.date} at {mainEvent.venue}
+              An Entrepreneurial conclave Organised by Innovation, Incubation and StartUp Foundation, KNIT Sultanpur on {mainEvent.date} at {mainEvent.venue}
             </p>
 
         </div>

@@ -2,6 +2,10 @@ import React from 'react'
 import mainEvent from "../assets/data/MainEvent"
 import Day1 from './Day1'
 import Day2 from './Day2'
+import rd1 from "../assets/Images/Roadmap/rd1.png"
+import rd2 from "../assets/Images/Roadmap/rd2.png"
+import rd3 from "../assets/Images/Roadmap/rd3.png"
+import rd4 from "../assets/Images/Roadmap/rd4.png"
 import { Link } from 'react-router-dom'
 const Event = () => {
   return (
@@ -23,9 +27,13 @@ const Event = () => {
                   </Link>
         <h2 className='text-5xl mt-5 sm:text-3xl font-bold text-yellow-500 underline'>Event Roadmap</h2>
         <h3 className='text-violet-500 font-bold  text-3xl  my-5'>Day 1</h3>
-        <Day1/>
-        <h3 className='text-violet-500  font-bold text-3xl my-5'>Day 2</h3>
-        <Day2/>
+        {/* <Day1/> */}
+        {/* <h3 className='text-violet-500  font-bold text-3xl my-5'>Day 2</h3> */}
+        {/* <Day2/> */}
+        <img className='w-[60%] sm:w-[90%] mt-5' src={rd1} alt="event1"/>
+        <img className='w-[60%] sm:w-[90%]' src={rd2} alt="event2"/>
+        <img className='w-[60%] sm:w-[90%]' src={rd3} alt="event3"/>
+        <img className='w-[60%] sm:w-[90%]' src={rd4} alt="event4"/>
     </div>
   )
 }

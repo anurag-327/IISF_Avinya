@@ -7,7 +7,7 @@ const faqquestions=[
     {
         id:2,
         question:"What is IISF?",
-        answer:`The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying asan epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well asthrough conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fosteringawareness among the students regarding the thriving startup world and business strategies.`
+        answer:`The Innovation Incubation and Startup Foundation (IISF) KNIT Sultanpur has withstood the time signifying as an epitome of E-Cell. With a glorious history of incubating myriad startups in various domains as well asthrough conducting entrepreneurial events, the IISF KNIT Sultanpur has been a pioneer in fosteringawareness among the students regarding the thriving startup world and business strategies.`
     },
     {
         id:3,

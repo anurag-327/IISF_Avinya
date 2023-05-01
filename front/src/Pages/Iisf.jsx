@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer"
 import Logo from "../assets/Images/Logo/IISF_LOGO.png"
 import { InstagramLogo, TwitterLogo, FacebookLogo ,LinkedinLogo,Envelope} from "phosphor-react";
-import {facultymembers,socialmediaandnetworkinghead,coreteammember,finalyear,eventmanagement,publicrelation,webdevelopement,rwa,thirdyearcoordinator,brandmarketing,planningandmanagement,financeandopearation,webtechnicaloperationshead,editorialhead,designingandmediateam,secondyear,researchandcorporatesteam} from "../assets/data/Team"
+import {creativehead,facultymembers,socialmediaandnetworkinghead,coreteammember,finalyear,eventmanagement,publicrelation,webdevelopement,rwa,thirdyearcoordinator,brandmarketing,planningandmanagement,financeandopearation,webtechnicaloperationshead,editorialhead,designingandmediateam,secondyear,researchandcorporatesteam} from "../assets/data/Team"
 const About = () => {
   return (
     <>
@@ -104,6 +104,7 @@ const About = () => {
                         }  
                         </ul>
                     </div>
+                    
                     <div className='min-w-[300px]'>
                         <ul>
                         <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Research Wing</h2>
@@ -137,6 +138,15 @@ const About = () => {
                         {
                       
                           planningandmanagement.map((item,index) => <li key={index}>{item}</li>)
+                        }  
+                        </ul>
+                    </div>
+                    <div className='min-w-[300px]'>
+                        <ul>
+                        <h2 className='text-xl my-2 underline font-semibold text-yellow-500'>Creative Head</h2>
+                        {
+                      
+                           creativehead.map((item,index) => <li key={index}>  {item}</li>)
                         }  
                         </ul>
                     </div>

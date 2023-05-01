@@ -25,8 +25,8 @@ const ContactUs = () => {
           <div className="flex gap-4 justify-start items-center">
               <Phone size={46} color="#ffffff"  />
               <div className="flex-col flex justify-center items-center">
-                  <span  >+91 9170702211</span>
                   <span>+91 8052624088</span>
+                  <span>+91 7607013887</span>
               </div>
           </div>
           <div className="flex gap-4 justify-start items-center">

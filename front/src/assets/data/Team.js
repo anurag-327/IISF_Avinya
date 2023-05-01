@@ -40,11 +40,12 @@ const rwa=[
    "Shreya Gupta",
    "Ankit Pathak", 
 ]    
+const creativehead=["Ayush","Gaurav"]
 const thirdyearcoordinator=["Amitesh Singh","Anjali Khatri"]
 const brandmarketing=["Rishi Srivastava","Deepanshi Sriavstava"]
 const planningandmanagement=["Devesh verma","Vishwas Verma",]
 const financeandopearation=["Mayank Kesharwani","Ashutosh"]
-const webtechnicaloperationshead=["Manish Srivastava","Shivansh Vasu","Nikita Agarwal"]
+const webtechnicaloperationshead=["Manish Srivastava","Shivansh Vasu","Nikita Agrawal"]
 const editorialhead=["Arti Yadav"]
 const designingandmediateam=["Abhishek Verma","Ishan Garg"]
 const socialmediaandnetworkinghead=["Abhishek Verma","Ishan Garg"]
@@ -73,6 +74,7 @@ const secondyear=[
 "Ashwani",
 "Shivanshi",
 "Sarthak Pandey",
+"Muskan"
 ]
 
-export{facultymembers,coreteammember,finalyear,eventmanagement,publicrelation,socialmediaandnetworkinghead,webdevelopement,rwa,thirdyearcoordinator,brandmarketing,planningandmanagement,financeandopearation,webtechnicaloperationshead,editorialhead,designingandmediateam,secondyear,researchandcorporatesteam}
+export{facultymembers,creativehead,coreteammember,finalyear,eventmanagement,publicrelation,socialmediaandnetworkinghead,webdevelopement,rwa,thirdyearcoordinator,brandmarketing,planningandmanagement,financeandopearation,webtechnicaloperationshead,editorialhead,designingandmediateam,secondyear,researchandcorporatesteam}
